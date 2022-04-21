@@ -1,0 +1,131 @@
+*{
+    font-size: 18px;
+    font-family: times new roma;
+    background-color: #17F622;
+}
+
+body{
+    margin: 30px;
+    margin-color: #1A4CF7;
+    color: #000000;
+}
+
+p{
+    text-align: justify;
+    background-color: #D2D3CD;
+    padding: 30px;
+}
+
+e{
+    background-color: #D2D3CD;
+    display: inline-block;
+    padding-left: 25px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+h2{
+    font-size: 25px;
+}
+
+iframe{
+    width: 45%;
+    height: 400px;
+    margin: 20px;
+}
+
+.img1{
+    width: 50%;
+    height: 300px;
+}
+
+.img2{
+    width: 40%;
+    height: 250px;
+}
+
+.img3{
+    width: 48%;
+    height: 370px;
+}
+
+div{
+    width: 45%;
+    height: 300px;
+    background-color: #D2D3CD;
+    padding: 30px;
+    border: solid;
+    border-color: #0026FA;
+    border-width: 5px;
+    text-align: justify;
+    overflow: auto;
+    display: inline-block;
+}
+
+header, ul, li, nav, a{
+    background-color: #D2D3CD
+}
+
+@media only screen and (max-width: 900px){
+    iframe{
+        width: 90%;
+        height: 300px;
+    }
+    .img1, .img3{
+        width: 90%;
+        height: 300px;
+    }
+    .img2{
+        width: 90%;
+        height: 200px;
+    }
+    div{
+        width: 80%;
+        height: 300px;
+    }
+}
+
+
+#header{
+    margin: auto;
+    width: 10%;
+}
+
+/*lo puntitos*/
+ul, ol{
+    list-style:  none;
+}
+
+/*diseño*/
+.nav li a{
+    background-color: #2A78E1;
+    color: #f0f0f0;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+/*color al pasar el maus*/
+.nav li a:hover{
+    background-color: #868686;
+}
+
+/*acomoddos*/
+.nav > li{
+    float: left
+}
+
+/*ocultar los ssubmenus*/
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 40px;
+}
+
+/*aparescan los sub menus*/
+.nav li:hover > ul{
+    display: block;
+}

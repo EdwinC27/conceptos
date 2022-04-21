@@ -1,0 +1,134 @@
+*{
+    font-family: times new roma;
+    font-size: 18px;
+}
+
+body{
+    background-color: #D7D703;
+    margin: 30px;
+    color: #000000;
+}
+
+p{
+    text-align: justify;
+    padding: 30px;
+    padding-top: 25px; 
+    background-color: #D2D3CD;
+    margin: 30px;
+}
+
+h1{
+    font-size:  40px;
+    margin: 15px;
+    text-align: center;
+}
+
+iframe{
+    width: 50%;
+    height: 400px;
+    margin: 30px;
+}
+
+div{
+    width: 45%;
+    height: 300px;
+    background-color: #D2D3CD;
+    border: solid;
+    border-width: 5px;
+    border-color: #F91313;
+    /*padin*/
+    padding: 30px;
+    /*texto*/
+    margin: 30px;
+    /*acomodar la imagen*/    
+    display: inline-block;
+    /*barra lateral*/
+    overflow: auto;
+}
+
+.img{
+    margin: 30px;
+}
+
+.img2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 60%;
+    height: 500px;
+}
+
+footer{
+    margin-left: 30px;
+}
+
+
+.identacion{
+    background-color: #D2D3CD;
+    display: inline-block;
+    padding-left: 25px;
+}
+
+/*condicion*/
+@media only screen and (max-width: 900px){
+    iframe{
+        width: 90%;
+        height: 300px;
+    }
+    .img{
+        width: 90%;
+        height: 500px;
+    }
+    .img2{
+        width: 95%;
+        height: 250px;
+    }
+    div{
+        width: 75%;
+        height: 300px;
+        margin: 20px;
+    }
+}
+
+
+#header{
+    margin: auto;
+    width: 10%;
+}
+
+/*lo puntitos*/
+ul, ol{
+    list-style:  none;
+}
+
+/*diseño*/
+.nav li a{
+    background-color: #2A78E1;
+    color: #f0f0f0;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+/*color al pasar el maus*/
+.nav li a:hover{
+    background-color: #868686;
+}
+
+/*acomoddos*/
+.nav > li{
+    float: left
+}
+
+/*ocultar los ssubmenus*/
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 40px;
+}
+
+/*aparescan los sub menus*/
+.nav li:hover > ul{
+    display: block;
+}
+
+

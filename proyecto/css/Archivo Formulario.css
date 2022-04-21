@@ -1,0 +1,87 @@
+*{
+    background-color: #F3F3EE;
+    font-size: 18px;
+    font-family:  times new roma;
+    text-align: justify;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+footer{
+    margin-left: 30px;
+}
+
+div{
+    margin: 10px;
+    padding: 20px;
+    background-color: #FFFFFD;
+    width: 50%;
+}
+
+input{
+    width: 90%;
+    padding: 5px;
+    background-color: #FFFFFD;
+}
+
+.button{
+    width: 5%;
+    background-color: #FFFFFD;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 900px){
+    div{
+        width: 90%;
+    }
+    .button{
+        width: 15%;
+    }
+}
+
+#header{
+    margin: auto;
+    width: 10%;
+}
+
+/*lo puntitos*/
+ul{
+    list-style:  none;
+}
+
+/*diseño*/
+.nav li a{
+    background-color: #2A78E1;
+    color: #f0f0f0;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+/*color al pasar el maus*/
+.nav li a:hover{
+    background-color: #868686;
+}
+
+/*acomoddos*/
+.nav > li{
+    float: left
+}
+
+/*ocultar los ssubmenus*/
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 40px;
+}
+
+/*aparescan los sub menus*/
+.nav li:hover > ul{
+    display: block;
+}

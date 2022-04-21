@@ -1,0 +1,147 @@
+*{
+    font-family: times new roma;
+    font-size: 18px;
+    background-color: rgb(25, 243, 233);
+}
+
+body{
+    background-color: #D2D3CD;
+    margin: 30px;
+}
+
+p{
+    text-align: justify;
+    margin: 30px;
+    /*acomodar la imagen*/    
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #D2D3CD;
+    width: 68%;
+    color: #000000;
+}
+
+b, a, nav, header, ul, li, textArea{
+    background-color: #D2D3CD;
+}
+
+h1{
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+}
+
+.imgChiquita{
+    width: 50%;
+    margin: 10px;
+    color: #000000;
+}
+
+div{
+    height: 300px;
+    width: 40%;
+    background-color: #D2D3CD;
+    border: solid;
+    border-width: 5px;
+    border-color: #0026FA;
+    /*padin*/
+    padding: 10px; 
+    /*texto y imagen*/
+    text-align: justify;
+    margin: 30px;
+    /*acomodar la imagen*/    
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-around;
+    /*barra lateral*/
+    overflow: auto;
+    color: #000000;
+}
+
+iframe{
+    width: 45%;
+    height: 400px;    
+    margin: 20px;
+    color: #000000;
+}
+
+textArea{
+    height: 900px;
+    width: 25%;
+    position: absolute;
+    right: 0px;
+    margin: 30px;
+    border: solid;
+    border-color: #0026FA;
+    border-width: 5px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    color: #000000;
+}
+
+/*condicion*/
+@media only screen and (max-width: 900px){
+    textArea{
+        width: 0%;
+        height: 0px;
+        display: block;
+    }
+    .imgChiquita{
+        width: 90%;
+    }
+    div{
+        width: 85%;
+        display: inline-block;
+    }
+    iframe{
+        width: 85%;
+        height: 300px;
+        margin: 20px;
+    }
+    p{
+        width: 85%;
+    }
+}
+
+
+#header{
+    margin: auto;
+    width: 10%;
+}
+
+/*lo puntitos*/
+ul, ol{
+    list-style:  none;
+}
+
+/*diseño*/
+.nav li a{
+    background-color: #2A78E1;
+    color: #f0f0f0;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+/*color al pasar el maus*/
+.nav li a:hover{
+    background-color: #868686;
+}
+
+/*acomoddos*/
+.nav > li{
+    float: left
+}
+
+/*ocultar los ssubmenus*/
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 40px;
+}
+
+/*aparescan los sub menus*/
+.nav li:hover > ul{
+    display: block;
+}

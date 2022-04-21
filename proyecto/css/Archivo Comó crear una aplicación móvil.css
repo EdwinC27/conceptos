@@ -1,0 +1,155 @@
+*{
+    font-size:18px;
+    font-family: times new roma;
+    background-color: #006A2E;
+}
+
+body{
+    background-color: #FF6100;
+    text-align: justify;
+}
+
+div{
+    background-color: #D2D3CD;
+    margin: 30px;
+    padding: 30px;
+    border: solid;
+    border-width: 5px;
+    border-color: #F91313;
+   
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+h2{
+    font-size: 28px;
+    margin: 30px;
+    background-color: #FF6100;
+}
+
+.identacion{
+    display: inline-block;
+    padding-left: 25px;
+    background-color: #D2D3CD;
+}
+
+img{
+    background-color: #D2D3CD;
+}
+
+.div{
+    border: solid;
+    border-width: 5px;
+    border-color: #F91313;
+    width: 45%;
+    height: 300px;
+    overflow: auto;
+}
+
+header, ul, li, a{
+    background-color: #D2D3CD;
+}
+
+footer{
+    margin: 30px;
+}
+
+.img1{
+    width: 80%;
+    height: 900px;
+}
+
+.img2{
+    width: 40%;
+    height: 400px;
+}
+
+.img3{
+    width: 80%;
+    height: 350px
+}
+
+.img4{
+    width: 30%;
+    height: 200px;
+    margin-left: 30px;
+}
+
+iframe{
+    width: 45%;
+    height: 300px;
+    margin: 30px;
+}
+
+@media only screen and (max-width: 900px){
+    iframe{
+        width: 86%;
+        height: 300px;
+        margin: 30px;
+    }
+    .img1{
+        width: 95%;
+        height: 500px;
+    }
+    .img2{
+        height: 300px;
+        width: 90%;
+    }
+    .img3{
+        width: 90%;
+        height: 160px;
+    }
+    .div{
+        width: 72%;
+        height:  300px;
+    }
+    .img4{
+        width: 76%;
+        height: 200px;
+    }
+}
+
+
+#header{
+    margin: auto;
+    width: 10%;
+}
+
+/*lo puntitos*/
+ul, ol{
+    list-style:  none;
+}
+
+/*diseño*/
+.nav li a{
+    background-color: #2A78E1;
+    color: #f0f0f0;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+/*color al pasar el maus*/
+.nav li a:hover{
+    background-color: #868686;
+}
+
+/*acomoddos*/
+.nav > li{
+    float: left
+}
+
+/*ocultar los ssubmenus*/
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 40px;
+}
+
+/*aparescan los sub menus*/
+.nav li:hover > ul{
+    display: block;
+}
